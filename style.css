@@ -111,6 +111,10 @@ main{
     font-size: x-large;
 }
 
+#left #colour i:hover{
+    border: 1px solid;
+}
+
 #left #description h3{
     padding-bottom: 15px;
 }
@@ -129,6 +133,10 @@ main{
     color: white;
     border-radius: 10px;
     border: none;
+}
+
+#left #description button:hover{
+    background-color: green;
 }
 
 main #top{
@@ -177,4 +185,8 @@ main #top{
 #bottom img{
     width: 200px;
     padding-top: 25px;
+}
+
+#bottom img:hover{
+    border-bottom: 1px solid;
 }
