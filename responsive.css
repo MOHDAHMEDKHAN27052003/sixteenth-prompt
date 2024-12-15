@@ -1,0 +1,90 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* Your CSS rules here */
+    header nav{
+        display: none;
+    }
+
+    header #goto{
+        display: none;
+    }
+
+    header .ri-menu-line{
+        display: initial;
+    }
+
+    main #top{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    main #left h1{
+      font-size: 1.7rem;
+    }
+
+    #left #review{
+      flex-wrap: wrap;
+    }
+
+    main #bottom{
+      flex-wrap: wrap;
+    }
+
+    #bottom-images{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) and (max-width: 768px) {
+    /* Your CSS rules here */
+    header nav{
+        display: none;
+    }
+
+    header .ri-menu-line{
+        display: initial;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    /* Your CSS rules here */
+    header nav{
+        display: none;
+    }
+
+    header .ri-menu-line{
+        display: initial;
+    }
+
+    main #top{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    main #bottom{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* Your CSS rules here */
+    main #top{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    main #bottom{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    /* Your CSS rules here */
+  }  
